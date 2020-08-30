@@ -32,11 +32,14 @@ h1, h2, h3, h4 {
     color: #828282;
 }
 
-#save, #publish, #edit, #remove {
+#publish, #edit, #remove {
     float: right;
     font-size: 15pt;
     margin-top: 40px;
     margin-right: 22px;
+}
+#save {
+    float: right;
 }
 
 .post-form textarea, .post-form input {
@@ -100,7 +103,7 @@ footer{
 #col1  {
 
     padding-right: 70px;
-    padding-top: 50px;
+    padding-top: 40px;
 
 }
 
