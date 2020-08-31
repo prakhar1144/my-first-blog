@@ -76,9 +76,21 @@ h1, h2, h3, h4 {
 background-color: red;
 }*/
 
+.post-options {
+
+    background-color: #ffffff;
+    height: 1px;
+}
+.post-image {
+
+    margin-top: 90px;
+    text-align: center;
+
+}
 
 .post-content {
-    padding-top: 70px;
+
+    padding-top: 60px;
     text-align: center;
     /*background-color: red;*/
 
