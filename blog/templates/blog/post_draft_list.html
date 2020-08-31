@@ -14,7 +14,7 @@
                <p class="date">created: {{ post.created_date|date:'d-m-Y' }}</p>
         </div>
         <div class="post-text">
-            <p>{{ post.text|linebreaksbr }}</p>
+            <p>{{ post.text|safe }}</p>
         </div>
     {% endfor %}
 {% endblock %}

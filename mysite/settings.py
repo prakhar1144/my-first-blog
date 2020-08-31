@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog.apps.BlogConfig',
+    'ckeditor'
 ]
 
 MIDDLEWARE = [
@@ -123,3 +124,11 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'blog/media')
+
+CKEDITOR_CONFIGS = {
+
+    'default': {
+        'width': 'auto',
+    }
+
+}
