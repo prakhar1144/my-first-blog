@@ -16,7 +16,7 @@ body {
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
-    font-size: 36pt;
+    font-size: 40px;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h1, h2, h3, h4 {
 
 #publish, #edit, #remove {
     float: right;
-    font-size: 15pt;
+    font-size: 15px;
     margin-top: 40px;
     margin-right: 22px;
 }
@@ -52,7 +52,7 @@ h1, h2, h3, h4 {
 .top-menu, .top-menu:hover, .top-menu:visited {
     color: #ffffff;
     float: right;
-    font-size: 29pt;
+    font-size: 29px;
     padding-right: 3%;
     margin-top: 15px;
 }
@@ -119,14 +119,16 @@ footer{
 
 #col1  {
 
-    padding-right: 70px;
+    padding-left: 10px;
+    padding-right: 100px;
     padding-top: 30px;
 
 }
 
 #col1 ul li {
-    display: block;
-    text-align: center;
+    /*display: block;*/
+    list-style: none;
+    /*text-align: center;*/
 }
 
 #col1 ul li a{
@@ -146,22 +148,24 @@ footer{
 
 #col3 a {
 
-    display: block;
-    text-align: center;
-    /*position: center;*/
-    /*padding-left: 110px;*/
-    margin-top: 5%;
+    display: inline-block;
+    height: 60px;
+    /*background-color:red;*/
+
+   *//*padding-left: 110px;*/
+    /*margin-top: 15%;*/
 }
 
 #col3 a img {
 
-	width: 13%;
+	width: 50px;
 	/*height: 22%;*/
 
 
 }
 
-@media only screen and (min-width : 425px){
+/* In future if needed change he width to remove shadow effect for mobiles*/
+@media only screen and (min-width : 5px){
 
     .date , .post-content { text-shadow: 10px 5px 5px grey; }
     .post-title{ text-shadow: 10px 5px 8px grey;}
@@ -206,3 +210,5 @@ footer ul li a{
 	margin: 10px;
 }*/
 
+/*
+html {font-size: calc(1em + 1vw)}*/
