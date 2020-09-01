@@ -20,7 +20,11 @@
         {% endif %}
     </div>
     <div class="post-image" >
-        <img src="{{ post.image.url }}" style="width: 75%;">
+        {% if post.image %}
+            <img src="{{ post.image.url }}" style="width: 75%;">
+        {% else %}
+            <p>  </p>
+        {% endif %}
     </div>
     <div class="post-content">
         <h2 id="post-content-title">{{ post.title }}</h2>
