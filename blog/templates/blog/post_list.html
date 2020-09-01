@@ -8,7 +8,9 @@
                 <p>{{ post.published_date }}</p>
         </div>
         <div class="post-text">
-            <p>{{ post.text|linebreaksbr|truncatewords:60}}</p>
+            {% autoescape off %}
+                {{ post.text|linebreaksbr|truncatewords:60}}
+            {% endautoescape %}
         </div>
     {% endfor %}
 {% endblock %}
