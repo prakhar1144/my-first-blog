@@ -9,7 +9,7 @@
         </div>
         <div class="post-text">
             {% autoescape off %}
-                {{ post.text|linebreaksbr|truncatewords:60}}
+                {{ post.text|linebreaksbr|truncatewords:30}}
             {% endautoescape %}
         </div>
     {% endfor %}
