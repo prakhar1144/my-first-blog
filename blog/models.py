@@ -4,12 +4,14 @@ from django.utils import timezone
 from ckeditor.fields import RichTextField
 
 class Post(models.Model):
+    Tags = [('Ot', 'Other'), ('Sp', 'Space'), ('Te', 'Technology')]
     author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     title = models.CharField(max_length=200)
     text = RichTextField(blank=True, null=True)
     created_date = models.DateTimeField(default=timezone.now)
     published_date = models.DateTimeField(blank=True, null=True)
     image = models.ImageField(null=True, blank=True)
+    Tag = models.CharField(max_length=2, choices=Tags, default='Ot')
 
     def publish(self):
         self.published_date = timezone.now()

@@ -135,7 +135,7 @@ footer{
     /*text-align: center;*/
 }
 
-#col1 ul li a, #col2 ul li a, #col2{
+#col1 ul li a, #col2 ul li a {
      font-family: 'Oswald', sans-serif;
      font-size: 24px;
      color: #fff;
@@ -178,7 +178,7 @@ footer{
     /*.post-content{text-shadow: 10px 5px 8px grey;}*/
     .page-header{box-shadow: 10px 10px 5px #c7c9c8;}
     .row {box-shadow: 30px -10px 5px #c7c9c8;}
-    #col1 ul li {text-shadow: 5px 5px 5px #757575;}
+    #col1 ul li, #col2 ul li  {text-shadow: 5px 5px 5px #757575;}
     #col3 a { filter: drop-shadow(1px 1px 5px #757575)}
 }
 /*footer ul{

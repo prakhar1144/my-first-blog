@@ -54,4 +54,16 @@ def post_remove(request, pk):
     post.delete()
     return redirect('post_list')
 
+def space(request):
+    posts = Post.objects.filter(Tag__contains='Sp').order_by('published_date')
+    return render(request, 'blog/post_list.html', {'posts': posts})
+
+def technology(request):
+    posts = Post.objects.filter(Tag__contains='Te').order_by('published_date')
+    return render(request, 'blog/post_list.html', {'posts': posts})
+
+def others(request):
+    posts = Post.objects.filter(Tag__contains='Ot').order_by('published_date')
+    return render(request, 'blog/post_list.html', {'posts': posts})
+
 
