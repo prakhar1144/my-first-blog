@@ -171,16 +171,19 @@ footer{
 /* In future if needed change he width to remove shadow effect for mobiles*/
 @media only screen and (min-width : 5px){
 
-    .date , .post-content { text-shadow: 10px 5px 5px grey; }
-    .post-title{ text-shadow: 10px 5px 8px grey;}
-    .post-text{ box-shadow: 10px 10px 5px grey;}
+    .date , .post-content { text-shadow: 2px 2px 6px grey; }
+    .post-title{ text-shadow: 2px 2px 18px grey;}
+    .post-text{ box-shadow: 0 0 20px grey;}
     .post-image{ filter: drop-shadow(0 0 30px grey)}
     /*.post-content{text-shadow: 10px 5px 8px grey;}*/
-    .page-header{box-shadow: 10px 10px 5px #c7c9c8;}
-    .row {box-shadow: 30px -10px 5px #c7c9c8;}
+    .page-header{box-shadow: 10px 10px 15px #c7c9c8;}
+/*    .row {box-shadow: 30px -10px 5px #c7c9c8;}
     #col1 ul li, #col2 ul li  {text-shadow: 5px 5px 5px #757575;}
-    #col3 a { filter: drop-shadow(1px 1px 5px #757575)}
+    #col3 a { filter: drop-shadow(1px 1px 5px #757575)}*/
 }
+
+
+
 /*footer ul{
 	margin-top: 15px;
 	width: auto;

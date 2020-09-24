@@ -132,3 +132,4 @@ CKEDITOR_CONFIGS = {
     }
 
 }
+
