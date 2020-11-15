@@ -11,3 +11,5 @@ A blogging site developed as a part of Django Learning projects.
 <img src="https://github.com/prakhar1144/my-first-blog/blob/master/Images/blog-4.png" alt="img" width="846" />
 <h2>Add Post</h2>
 <img src="https://github.com/prakhar1144/my-first-blog/blob/master/Images/blog-5.png" alt="img" width="846" />
+<h2>Edit Post</h2>
+<img src="https://github.com/prakhar1144/my-first-blog/blob/master/Images/blog-6.png" alt="img" width="846" />
